@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/phosphor-icons@1.4.2/src/css/icons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid gap-2">
+            <img class=" logo" src="images/Compute-Logos-04-Windows.svg" style="width: 30px;margin-left: -5px;" alt="">
+          <a class="navbar-brand  title" href="#" style="font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 18px;font-weight: 600;">Azure</a>
+          <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="#" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;">Explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                  Solutions
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;">Partners</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;">Resources</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 140px;border: 1px solid black;" >
+        
+            </form>
+            <nav class="nav">
+                <a class="nav-link active" aria-current="page" href="#" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;color: rgb(43, 40, 40);">Learn</a>
+                <a class="nav-link" href="#" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;color: rgb(43, 40, 40);">Support</a>
+                <a class="nav-link" href="#" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;color: rgb(43, 40, 40);">Contact sales</a>
+                <a class="nav-link" aria-disabled="true" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;color: rgb(43, 40, 40);background-color: #89c402;border-radius: 4px;">Free account</a>
+                <a class="nav-link texts" href="#" style="font-size: 13px;font-family: 'Segoe UI',SegoeUI,'Helvetica Neue',Helvetica,Arial,sans-serif;color: rgb(43, 40, 40);">Sign in</a>
+              </nav>
+          </div>
+        </div>
+      </nav> 
+
+      <div class="container-fluid backgrounds" style="background-image: url(images/Desktop-Hero-Oct.webp);height: 500px; background-size: cover; width: 100%;">
+
+             <div class="d-none d-sm-block d-sm-none d-md-block">
+               <h1 style="font-size: 5vh;font-family: inherit;font-weight: 600;margin-left: 40px;padding-top: 70px;">Endless possibilities—from the edge <br> to the cloud </h1>
+                <p style="margin-left: 40px;padding-top: 20px;">Broaden your impact with global infrastructure, cutting-edge AI services, and <br> the latest dev tools. Pay-as-you-go or try Azure free for up to 30 days. There’s <br> no upfront commitment—cancel anytime.</p>
+                <button type="button" class="btn btn-primary" style="padding: 10px;margin-left: 40px;margin-top: 50px;">Get started</button>
+                <button type="button" class="btn btn-secondary" style="background-color: transparent;border: 2px solid black;margin-top: 50px; color:#5d5a7d;padding: 10px;">Try Azure for free</button>
+              </div>
+      </div>
+
+      <div class=" container-fluid d-block d-sm-none  this"  >
+        <h1 style="font-size: 4vh;font-family: inherit;font-weight: 600;padding-top: 20px;">Endless possibilities—from the edge <br> to the cloud </h1>
+         <p style="padding-top: 20px;">Broaden your impact with global infrastructure, cutting-edge AI services, and <br> the latest dev tools. Pay-as-you-go or try Azure free for up to 30 days. There’s <br> no upfront commitment—cancel anytime.</p>
+         <button type="button" class="btn btn-primary" style="padding: 10px;margin-top: 10px;">Get started</button>
+         <button type="button" class="btn btn-secondary" style="background-color: transparent;border: 2px solid black;margin-top: 10px; color:#5d5a7d;padding: 10px;">Try Azure for free</button>
+       </div>
+
+      <div class="container-fluid border-bottom linked d-none d-sm-block d-sm-none d-md-block" style="background-color: white;padding: 10px;">
+        <ul class="nav nav-underline gap-4" style="margin-left: 40px;">
+          <li class="nav-item" >
+            <a class="nav-link " aria-current="page" href="#">Featured News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products&services </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-disabled="true">Resources by role</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customer stories</a>
+          </li>
+        </ul>
+      </div>
+    
+      <div class="container-fluid d-block d-sm-none border-bottom align-items-center" style="margin-top: 5px;">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;
+          border: 0px solid white; background-color: transparent; margin-left: -10px !important;">
+            Featured News
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Solutions</a></li>
+            <li><a class="dropdown-item" href="#">Products&services</a></li>
+            <li><a class="dropdown-item" href="#">Resources by role</a></li>
+            <li><a class="dropdown-item" href="#">Customer stories</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container-fluid cards" >
+        <div class="c-up">
+          <p style="margin-left: 40px;padding-top: 20px;font-size: 2vh;color: rgb(134, 125, 125);">FEATURED NEWS</p>
+          <h4  style="margin-left: 40px;padding-top: 10px;font-size: 4vh;font-weight: 600;">Discover what’s happening on Azure</h4>
+        </div>
+        <div class="c-down" style="margin-top: 50px;">
+          <div class="container text-center d-none d-sm-block d-sm-none d-md-block ">
+            <div class="row align-items-start">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/featured-news-card1.avif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-start">Microsoft Ignite</h5>
+                    <p class="card-text text-start">Join us November 14–17, 2023 to explore the latest innovations, learn from experts, level up your skillset, and expand your network.</p>
+                    <a href="#" class="btn btn-primary"><i class="ph ph-caret-right"></i></a> <span> <a href="#" style="text-decoration: none;">Register now</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/featured-news-card2.avif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-start">Microsoft Ignite</h5>
+                    <p class="card-text text-start">Join us November 14–17, 2023 to explore the latest innovations, learn from experts, level up your skillset, and expand your network.</p>
+                    <a href="#" class="btn btn-primary"><i class="ph ph-caret-right"></i></a> <span> <a href="#" style="text-decoration: none;">Register now</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/featured-news-card3.avif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title text-start">Microsoft Ignite</h5>
+                    <p class="card-text text-start">Join us November 14–17, 2023 to explore the latest innovations, learn from experts, level up your skillset, and expand your network.</p>
+                    <a href="#" class="btn btn-primary"><i class="ph ph-caret-right"></i></a> <span> <a href="#" style="text-decoration: none;">Register now</a></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+     
+
+      
+   
+
+
+    <div class="container-fluid serves ">
+      <div class="s-up">
+        <p style="margin-left: 35px;padding-top: 20px;font-size: 2vh;color: rgb(134, 125, 125);">PRODUCTS AND SERVICES</p>
+        <h4  style="margin-left: 35px;padding-top: 10px;font-size: 4vh;font-weight: 600;">Explore tools for bringing your vision to life</h4>
+           <div class="d-none d-sm-block d-sm-none d-md-block" style="margin-left: 35px;margin-top: 50px;">
+             <button type="button" class="btn btn-primary" >Featured</button>
+             <button type="button" class="btn btn-outline-primary" style="margin-left: 10px;">AI + machine learning</button>
+             <button type="button" class="btn btn-outline-primary"style="margin-left: 10px;">Compute</button>
+             <button type="button" class="btn btn-outline-primary"style="margin-left: 10px;">container</button>
+             <button type="button" class="btn btn-outline-primary"style="margin-left: 10px;">Hybrid + multiclod</button>
+            </div>
+      </div>
+            
+
+        <div class="s-down d-none d-sm-block d-sm-none d-md-block" style="margin-top: 50px;">
+          <div class="sd-one">
+            <div class="container text-center ">
+              <div class="row align-items-center gap-3">
+                <div class="col">
+                  <div class="card " style="width: 18rem;height: 350px;justify-content: center;">
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        <img src="images/icon1.2.svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                      </h5>
+                      <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure AI services</h6>
+                      <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Create intelligent apps with APIs and customizable models.</p>
+
+                      <div class="text-start" style="margin-top: 80px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card " style="width: 18rem;height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        <img src="images/icon1.4 (1).svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                      </h5>
+                      <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure Synapse Analytics</h6>
+                      <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Accelerate time to insight across enterprise data warehouses.</p>
+
+                      <div class="text-start" style="margin-top: 80px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card " style="width: 18rem;height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        <img src="images/icon1.3.svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                      </h5>
+                      <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure SQL </h6>
+                      <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Migrate and modernize your SQL workloads.</p>
+
+                      <div class="text-start" style="margin-top: 80px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sd-two" style="margin-top: 50px;">
+            <div class="container text-center ">
+              <div class="row align-items-center gap-3">
+                <div class="col ">
+                  <div class="card " style="width: 18rem;height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        <img src="images/icon1.2.svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                      </h5>
+                      <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure AI services</h6>
+                      <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Create intelligent apps with APIs and customizable models.</p>
+
+                      <div class="text-start" style="margin-top: 80px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card " style="width: 18rem;height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        <img src="images/icon1.4 (1).svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                      </h5>
+                      <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure Synapse Analytics</h6>
+                      <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Accelerate time to insight across enterprise data warehouses and big data systems.</p>
+
+                      <div class="text-start" style="margin-top: 60px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card " style="width: 18rem;height: 350px;">
+                    <div class="card-body">
+                      <h5 class="card-title text-start">
+                        <img src="images/icon1.3.svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                      </h5>
+                      <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure SQL </h6>
+                      <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Migrate and modernize your SQL workloads.</p>
+
+                      <div class="text-start" style="margin-top: 80px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="s-downs container-fluid d-block d-sm-none" style="margin-top: 50px;">
+          <div class="container text-center">
+            <div class="row align-items-center" style="display: block; margin-left: -45px;">
+              <div class="col" style="margin-top: 15px;">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-start">
+                      <img src="images/icon1.3.svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                    </h5>
+                    <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure AI services</h6>
+                    <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Create intelligent apps with APIs and customizable models.</p>
+                    <div class="text-start" style="margin-top: 80px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                     </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="margin-top: 15px;">
+                <div class="card" style="width: 18rem; ">
+                  <div class="card-body">
+                    <h5 class="card-title text-start">
+                      <img src="images/icon1.3.svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                    </h5>
+                    <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure AI services</h6>
+                    <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Create intelligent apps with APIs and customizable models.</p>
+                    <div class="text-start" style="margin-top: 60px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                     </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="margin-top: 15px;">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-start">
+                      <img src="images/icon1.3.svg" style="border: 2px solid #bdc5d2;padding: 20px;border-radius: 5px;" alt="">
+                    </h5>
+                    <h6 class="card-subtitle  text-start" style="margin-top: 40px;color: black;font-size: 3vh;" >Azure AI services</h6>
+                    <p class="card-text text-start" style="font-size: 2vh;padding-top: 10px;">Create intelligent apps with APIs and customizable models.</p>
+                    <div class="text-start" style="margin-top: 80px;">
+                      <a href="#" class="card-link">Explore the product</a>
+                     </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid text-center i-shows " style="background-image: url(images/ii.avif);margin-top: 50px; width: 100%;background-size: cover;">
+      <p  style="padding-top: 50px;color: rgb(137, 136, 136);">RESOURCES BY ROLE</p>
+      <h1 class="heads">Transform the way you work</h1>
+           
+     <img src="images/resources-it-professional-2x.webp" style="width: 100%;margin-bottom: 20px;" alt="">
+         
+    </div>
+
+
+    
+   <div class="container-fluid text-center earth" style="background-color: #5d5a7d;height: 300px; background-image: url(images/Regions-banner-2x.avif);background-size: cover;" >
+     <h1 class="hs" style="font-size: 5vh;color: white;padding-top: 100px;">Azure global infrastructure</h1>
+     <p  class="ps" style="font-size: 2.5vh;color: white;" >Go beyond the limits of on-premises datacenters with more regions than any other provider.</p>
+     <button type="button" class="btn btn-info bs">Explore the globe</button>
+   </div>
+
+   <div class="backgrounds d-none d-sm-block d-sm-none d-md-block" style="height: 400px;width: 100%;background-color: #bdc5d2;background-image: url(images/Desktop-DataCard-Background.avif);">
+    <div class="b-up text-center">
+      <h3 style="color: white;  padding-top: 50px;">Get more value from your cloud investments</h3>
+    </div>
+    <div class="mains b-down align-items-center d-flex justify-content-center " style="width: 100%;height:310px;background-color:transparent;">
+         <div class="vit  align-items-center" style="height: 270px;width:80%;display: flex; justify-content:space-around ; background-color:rgba(161, 159, 159, 0.278);backdrop-filter: blur(30px); border-radius: 20px;">
+          <div class="text-center icon1" style="height: 230px;width: 30%;">
+            <img style="margin-top: 30px;" src="images/Shape1.svg" alt="">
+            <h5 style="color: white;padding-top: 20px;">16%: average savings of direct infrastructure-related costs with Azure1.</h5>
+          </div>
+          <div class="text-center" style="height: 230px;width: 30%;">
+            <img style="margin-top: 30px;" src="images/Shape2.svg" alt="">
+            <h5 style="color: white;padding-top: 20px;">16%: average savings of direct infrastructure-related costs with Azure1.</h5>
+          </div>
+          <div class="text-center" style="height: 230px;width: 30%;">
+            <img style="margin-top: 30px;" src="images/Shape3.svg" alt="">
+            <h5 style="color: white;padding-top: 20px;">16%: average savings of direct infrastructure-related costs with Azure1.</h5>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="d-down  d-block d-sm-none" style="width: 100%;height: 600px; background-color:transparent;background-position: center;background-repeat: no-repeat; background-image: url(images/Desktop-DataCard-Background.avif);">
+    <div class="d-up text-center" style="background-image: url(images/Desktop-DataCard-Background.avif);">
+      <h3 style="color: white;font-size: 3vh;  padding-top: 10px;">Get more value from your cloud investments</h3>
+    </div>
+    <div class="d-down" style="width: 100%;margin-top: 20px;">
+        <div class="" style="width: 80%;margin-left: 10%; background-color:rgba(161, 159, 159, 0.278);backdrop-filter: blur(30px); border-radius: 20px;">
+          <div class="text-center">
+            <img style="margin-top: 30px;" src="images/Shape1.svg" alt="">
+            <h5 style="color: white;padding-top: 20px; font-size: 2vh;padding-bottom: 20px;">16%: average savings of direct infrastructure-related costs with Azure1.</h5>
+          </div>
+          <div  class="text-center">
+            <img style="margin-top: 30px;" src="images/Shape1.svg" alt="">
+            <h5 style="color: white;padding-top: 20px; font-size: 2vh;padding-bottom: 20px;">16%: average savings of direct infrastructure-related costs with Azure1.</h5>
+          </div>
+          <div  class="text-center">
+            <img style="margin-top: 30px;" src="images/Shape1.svg" alt="">
+            <h5 style="color: white;padding-top: 20px; font-size: 2vh;padding-bottom: 20px;">16%: average savings of direct infrastructure-related costs with Azure1.</h5>
+          </div>
+        </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid footer d-none d-sm-block d-sm-none d-md-block">
+    <div class="f-up" style="margin-top: 20px;">
+     <a href="http://" style="text-decoration: none;padding: 10px;border-radius: 10px; background-color: #eaebec "> <img src="images/icon1.4 (1).svg" alt="" > Get the Azure mobile app</a>
+    </div>
+    <div class="f-down d-flex " style="justify-content: space-between;">
+        <div class="i-one">
+          <h6 style="margin-top: 30px;font-size: 14px;color: #4c4c51;">Explore Azure</h6>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">What is Azure?</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Get started</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Global infrastructure</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Trust you cloud</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Customer stories</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Customer services</a> <br>
+        </div>
+        <div class="i-two">
+          <h6 style="margin-top: 30px;font-size: 14px;color: #4c4c51;">Products and pricing</h6>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">products </a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">pricing</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Free Azure services</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Cloud economics</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Optimise your costs</a> <br>
+        </div>
+        <div class="i-three">
+          <h6 style="margin-top: 30px;font-size: 14px;color: #4c4c51;">Solutions and support</h6>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Solutions </a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Resources for accelerating growth</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Solution architectures</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Support</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Azure demo and live Q&A</a> <br>
+        </div>
+        <div class="i-four">
+          <h6 style="margin-top: 30px;font-size: 14px;color: #4c4c51;">Partners</h6>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Azure Marketplace </a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Find a partner</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Technology partners</a> <br>
+        </div>
+        <div class="i-five">
+          <h6 style="margin-top: 30px;font-size: 14px;color: #4c4c51;">Resources</h6>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Training and certifications </a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Documentation</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Blog</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Developer resources</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Students</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Events and webinars</a> <br>
+          <a href="http://" style="font-size: 12px;color: #4c4c51;">Analyst reports, white papers and e-books</a> <br>
+        </div>
+    </div>
+  </div>
+  
+  <div class="container-fluid footers d-block d-sm-none">
+    <div class="fd-up text-center">
+      <a href="http://" style="text-decoration: none;padding: 10px;border-radius: 10px; background-color: #eaebec "> <img src="images/icon1.4 (1).svg" alt="" > Get the Azure mobile app</a>
+    </div>
+    <div class="fd-down">
+        <div class="fd-one" style="margin-top: 30px;">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Explore Azure
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">What is Azure?</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Get started</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Global infrastructure</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Trust you cloud</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Customer stories</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Customer services</a> <br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header"  ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Products and pricing
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">products </a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">pricing</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Free Azure services</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Cloud economics</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Optimise your costs</a> <br>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Solutions and support
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Solutions </a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Resources for accelerating growth</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Solution architectures</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Support</a> <br>
+                  <a href="http://" style="font-size: 12px;color: #4c4c51;">Azure demo and live Q&A</a> <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="container-fluid " style="margin-top: 30px;">
+    <div class="input-group  mb-3">
+      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select Language</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">ENGLISH (US)</a></li>
+        <li><a class="dropdown-item" href="#">DANSK</a></li>
+        <li><a class="dropdown-item" href="#">ENGLISH(AUSTRALIA)</a></li>
+        <li><a class="dropdown-item" href="#">ENGLISH(CANADA)</a></li>
+      
+      </ul>
+     
+    </div>
+    
+    
+  </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
+    
+</body>
+</html>

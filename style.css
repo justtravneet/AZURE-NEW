@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@media screen and (max-width:380px) {
+ .backgrounds{
+    background-position: right  !important;
+
+    height: 200px !important;
+    width: 100% !important;
+ }
+ .c-up{
+    margin-left: -40px;
+ }
+ .s-up{
+    margin-left: -45px;
+ }
+ .i-show {
+   width: 100% !important;
+  
+ }
+ .i-shows {
+   background-position: right !important;
+ }
+ .heads{
+   font-size: 24px !important;
+ }
+ .hs{
+  font-size: 4vh !important;
+ padding-top: 50px !important;
+ }
+ .ps{
+  font-size: 2vh !important;
+  padding-top: 10px !important;
+ }
+ .bs{
+ margin-top: 20px !important;
+ }
+ .earth{
+  background-position: right !important;
+ }
+ .backgrounds{
+  height: 550px !important;
+ }
+ 
+ 
+}
